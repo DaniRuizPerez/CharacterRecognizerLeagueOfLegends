@@ -3,9 +3,12 @@ League of Legends Champion Detector
 
 This is a computer vision project that my team developed for the Machine Learning course in the junior year of my undergrad in computer science at UDC (Spain). Given an imagen, it tells you the position and name of different League of Legends characters (or champions), in different possitions and backgrounds. 
 
+I worked with the model
 
 
-<img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Result.png" width="900">
+
+
+<img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Images/AllInGrass.png" width="900">
 
 
 
@@ -30,7 +33,11 @@ The characters are smaller than the input image, not centered (can be anywhere) 
 
 The models were trained with champion images for the possitive cases and background and terrain for the negative cases.
 
-Mean of RGB channels
+Mean, Standard Deviation of RGB channels
+for different fixed characteristics of different characters
+
+Annie :
+	for hair, head, body and fire ball
 
 
 ## Further explanation
