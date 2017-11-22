@@ -9,26 +9,20 @@ This is a computer vision project that my team developed for the Machine Learnin
 
 
 ## Team work divission
-I worked with the model
-
-
-
-
+I took care of the necesary matlab scripting, training the models, testing, feature extraction and approximation ideas. The other members of the team took care of taking the screenshots to create the database.
 
 
 
 ## ML techniques comparisson
-Artificial Neural Networks (ANN)
-Support Vector Machines (SVM)
-K-Nearest Neighbours (KNN)
+For each of the incremental approximations used, we played with this three different models, being SVM the one with better results:
+- Artificial Neural Networks (ANN)
+- Support Vector Machines (SVM)
+- K-Nearest Neighbours (KNN)
 
 
 
 ## Image Data Base ad-hoc creation
-
-Esto es, cada base de datos es una matriz de 3xn elementos, siendo n el número de
-imágenes.
-
+We had to create a sufficiently large database of screenshots for the game. Then, we ran a script that obtain the features selected of each champion and stored it in a .mat file.
 
 
 ## Approximation used
@@ -38,16 +32,12 @@ The characters are smaller than the input image, not centered (can be anywhere) 
 The models were trained with champion images for the possitive cases and background and terrain for the negative cases. From all the images obtained, we created specific .mat files with the features that we extracted from them, and that was what was feeded into the ML models. This features are the mean and standard Deviation of RGB channels for the whole window and for different fixed characteristics specific to the different characters. We only detect the champions when they are in a range of poses, so we took advantage of the locality of their main features. An example of the features that we took can be vieweded in the following images:
 
 
-<img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Images/UrgotFeatures.PNG" width="300"><img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Images/ThreshFeatures.PNG" width="300"><img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Images/ZileanFeatures.PNG" width="300">
-
+<img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Images/UrgotFeatures.PNG" width="200"><img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Images/ThreshFeatures.PNG" width="200"><img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Images/ZileanFeatures.PNG" width="200">
 
 
 
 ## Further explanation
 You can take a look at the project report (in Spanish) [here](https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Report.pdf).
-
-
-
 
 
 ## Contact
