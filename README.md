@@ -29,11 +29,10 @@ We had to create a sufficiently large database of screenshots for the game. Then
 
 The characters are smaller than the input image, not centered (can be anywhere) and more than one can appear. The approximation that we used was to convolute the image with varying size windows that would call our ML model with the subimage delimited by every new position. We know that this is not the most efficient way, but we didn't have any time constraints. As we detected 4 different characters, a model specific for each one would be called, outputting if it is present or not in that piece of image and highlighting it if so.
 
-The models were trained with champion images for the possitive cases and background and terrain for the negative cases. From all the images obtained, we created specific .mat files with the features that we extracted from them, and that was what was feeded into the ML models. This features are the mean and standard Deviation of RGB channels for the whole window and for different fixed characteristics specific to the different characters. We only detect the champions when they are in a range of poses, so we took advantage of the locality of their main features. An example of the features that we took can be vieweded in the following images:
+The models were trained with champion images for the possitive cases and background and terrain for the negative cases. From all the images obtained, we created specific .mat files with the features that we extracted from them, and that was what was feeded into the ML models. This features are the mean and standard Deviation of RGB channels for the whole window and for different fixed characteristics specific to the different characters. We only detect the champions when they are in a range of poses, so we took advantage of the locality of their main features. An example of the features that we took can be vieweded in the following image:
 
 
-<img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Images/UrgotFeatures.PNG" width="400"><img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Images/ThreshFeatures.PNG" width="400">
-
+<img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Images/UrgotFeatures.PNG" width="700">
 
 
 ## Further explanation
