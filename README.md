@@ -35,7 +35,7 @@ We had to create a sufficiently large database of screenshots for the game. Then
 
 ## Execution
 
-You will need Matlab and to execute the file [processALL.m](https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Code/processALL.mf) with the desired image and displacement. This is set up to recognize all the supported champions and different backgrounds. A great testing file is [processALL.m](https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Code/All.png)
+You will need Matlab and to execute the file [processALL.m](https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Code/processALL.mf) with the desired image and displacement. This is set up to recognize all the supported champions and different backgrounds. A great testing file is [All.png](https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Code/All.png), which is the one used in the demonstration video [VideoDemo.mp4](https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/Code/VideoDemo.mp4)
 
 
 ## Further explanation
