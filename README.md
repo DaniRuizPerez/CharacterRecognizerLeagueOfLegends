@@ -4,7 +4,7 @@ League of Legends Champion Detector
 This is a computer vision project that my team developed for the Machine Learning course in the junior year of my undergrad in computer science at UDC (Spain). Given an image, it tells you the position and name of different League of Legends characters (or champions), in different positions and backgrounds. 
 
 <p align="center">
-<img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/AllInGrass.png" width="900">>
+<img src="https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/AllInGrass.png" width="900">
 </p>
 
 ## Team work division
